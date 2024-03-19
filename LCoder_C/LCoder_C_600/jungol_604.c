@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main()
+int main(void)
 {
 	char* arr[11];
 	char one[2];
