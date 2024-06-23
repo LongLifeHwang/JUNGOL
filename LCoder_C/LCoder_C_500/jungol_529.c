@@ -11,8 +11,6 @@ int main(void)
 	standard = b + 100 - a;
 	printf("%d\n", standard);
 	if (standard > 0)
-	{
 		printf("Obesity");
-	}
 	return 0;
 }
