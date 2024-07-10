@@ -10,9 +10,7 @@ int main(void)
 	{
 		scanf("%d", &n);
 		if (n % 3 == 0)
-		{
 			printf("%d\n", n / 3);
-		}
 	} while (n != -1);
 	return 0;
 }
