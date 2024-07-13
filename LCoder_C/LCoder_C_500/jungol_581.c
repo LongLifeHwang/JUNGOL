@@ -13,20 +13,12 @@ int main(void)
 	scanf("%d %d", &a, &b);
 	scanf("%f %f", &c, &d);
 	if (abs(a) >= abs(b))
-	{
 		printf("%d\n", a);
-	}
 	else
-	{
 		printf("%d\n", b);
-	}
 	if (fabs(c) >= fabs(d))
-	{
 		printf("%.2f\n", d);
-	}
 	else
-	{
 		printf("%.2f\n", c);
-	}
 	return 0;
 }
