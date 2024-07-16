@@ -13,9 +13,7 @@ void j_589_1(int n)
 		j_589_1(n);
 	}
 	else
-	{
 		printf("%d", sum);
-	}
 }
 
 int main(void)
