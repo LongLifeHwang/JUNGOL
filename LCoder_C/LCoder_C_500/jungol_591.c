@@ -8,9 +8,7 @@ int level = 2;
 void j_591()
 {
     if (level > N)
-    {
         printf("%d", arr[N]);
-    }
     else
     {
         arr[level] = arr[level - 1] + arr[level / 2];
