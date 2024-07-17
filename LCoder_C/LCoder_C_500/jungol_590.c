@@ -9,9 +9,7 @@ void output()
 	int i;
 
 	for (i = 1; i <= N; i++)
-	{
 		printf("%d ", arr[i]);
-	}
 	printf("\n");
 }
 
