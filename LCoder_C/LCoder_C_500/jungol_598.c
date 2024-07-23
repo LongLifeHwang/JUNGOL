@@ -11,21 +11,13 @@ int main()
 	{
 		scanf("%s", c);
 		if ((int)c[0] >= 48 && (int)c[0] <= 57)
-		{
 			printf("%d\n", c[0]);
-		}
 		else if ((int)c[0] >= 65 && (int)c[0] <= 90)
-		{
 			printf("%s\n", c);
-		}
 		else if ((int)c[0] >= 97 && (int)c[0] <= 122)
-		{
 			printf("%s\n", c);
-		}
 		else
-		{
 			break;
-		}
 	}
 	return 0;
 }
