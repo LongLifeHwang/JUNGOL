@@ -7,8 +7,6 @@ int main(void)
 	
 	i = 65;
 	while (i < 91)
-	{
 		printf("%c", i++);
-	}
 	return 0;
 }
