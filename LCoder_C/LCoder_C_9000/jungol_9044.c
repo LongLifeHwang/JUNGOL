@@ -21,9 +21,7 @@ int main(void)
 			sum += n;
 		}
 		else
-		{
 			continue;
-		}
 	} while (n != 0);
 	avg = (float)sum / count;
 	printf("홀수의 합 = %d\n", sum);
