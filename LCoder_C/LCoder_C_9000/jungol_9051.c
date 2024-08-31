@@ -12,9 +12,7 @@ int main(void)
 	{
 		scanf("%d", &n);
 		if (n % 2 == 0)
-		{
 			sum++;
-		}
 	}
 	printf("입력받은 짝수는 %d개입니다.", sum);
 	return 0;
