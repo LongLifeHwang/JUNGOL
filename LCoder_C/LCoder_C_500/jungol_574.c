@@ -5,21 +5,13 @@
 int j_574_1(int a, int b, int c)
 {
 	if (a >= b)
-	{
 		b = a;
-	}
 	else
-	{
 		a = b;
-	}
 	if (a >= c)
-	{
 		return a;
-	}
 	else
-	{
 		return c;
-	}
 }
 
 int main(void)

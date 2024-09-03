@@ -50,9 +50,7 @@ int main(void)
 			count++;
 		}
 		else
-		{
 			printf("fail\n");
-		}
 	}
 	printf("Successful : %d\n", count);
 	return 0;

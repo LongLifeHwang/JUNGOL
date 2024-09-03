@@ -14,9 +14,7 @@ int main(void)
 		save[i] = save[i - 2] - save[i - 1];
 		printf("%d ", save[i]);
 		if (save[i] < 0)
-		{
 			break;
-		}
 	}
 	return 0;
 }

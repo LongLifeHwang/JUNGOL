@@ -9,9 +9,7 @@ int main(void)
 	sum = 0;
 	scanf("%d", &n);
 	for (; n <= 100; n++)
-	{
 		sum += n;
-	}
 	printf("%d", sum);
 	return 0;
 }

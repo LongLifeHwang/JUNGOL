@@ -10,9 +10,7 @@ int main(void)
 	int arr5[6] = { 1, };
 
 	for (int i = 0; i < 5; i++)
-	{
 		printf("%d ", arr1[i]);
-	}
 	printf("\n");
 	for (int j = 1; j < 5; j++)
 	{

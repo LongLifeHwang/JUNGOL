@@ -16,13 +16,9 @@ int main(void)
 			for (int i = 0; i < 10; i++)
 			{
 				if (save[i] != 0)
-				{
 					printf("%d : %d\n", i, save[i]);
-				}
 				else
-				{
 					continue;
-				}
 			}
 			break;
 		}

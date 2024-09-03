@@ -8,9 +8,7 @@ int main(void)
 	
 	temp = 0;
 	for (int i = 0; i < 10; i++)
-	{
 		scanf("%d", &n[i]);
-	}
 	for (int i = 0; i < 10; i++)
 	{
 		for (int j = i; j < 10; j++)
@@ -24,8 +22,6 @@ int main(void)
 		}
 	}
 	for (int i = 0; i < 10; i++)
-	{
 		printf("%d ", n[i]);
-	}
 	return 0;
 }

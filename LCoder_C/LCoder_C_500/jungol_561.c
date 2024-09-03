@@ -15,26 +15,18 @@ int main(void)
 		if (n[i] < 100)
 		{
 			if (max < n[i])
-			{
 				max = n[i];
-			}
 		}
 		else
 		{
 			if (min > n[i])
-			{
 				min = n[i];
-			}
 		}
 	}
 	if (max == 0)
-	{
 		max = 100;
-	}
 	if (min == 10000)
-	{
 		min = 100;
-	}
 	printf("%d %d", max, min);
 	return 0;
 }

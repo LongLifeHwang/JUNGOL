@@ -11,9 +11,7 @@ int main(void)
 	{
 		scanf("%d", &n[i]);
 		if (min > n[i])
-		{
 			min = n[i];
-		}
 	}
 	printf("%d", min);
 	return 0;

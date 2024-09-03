@@ -19,12 +19,8 @@ int main(void)
 	avg = (float)sum / count;
 	printf("avg : %.1f\n", avg);
 	if (avg >= 80)
-	{
 		printf("pass");
-	}
 	else
-	{
 		printf("fail");
-	}
 	return 0;
 }

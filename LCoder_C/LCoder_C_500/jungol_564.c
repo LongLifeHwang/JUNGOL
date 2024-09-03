@@ -16,13 +16,9 @@ int main(void)
 			for (int i = 0; i < 26; i++)
 			{
 				if (save[i] == 0)
-				{
 					continue;
-				}
 				else
-				{
 					printf("%c : %d\n", i + 65, save[i]);
-				}
 			}
 			break;
 		}

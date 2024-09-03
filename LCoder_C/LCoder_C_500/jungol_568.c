@@ -10,9 +10,7 @@ int main(void)
 	for (int i = 0; i < 2; i++)
 	{
 		for (int j = 0; j < 4; j++)
-		{
 			scanf("%d", &arr1[i][j]);
-		}
 		printf("\n");
 	}
 	printf("\n");
@@ -20,17 +18,13 @@ int main(void)
 	for (int i = 0; i < 2; i++)
 	{
 		for (int j = 0; j < 4; j++)
-		{
 			scanf("%d", &arr2[i][j]);
-		}
 		printf("\n");
 	}
 	for (int i = 0; i < 2; i++)
 	{
 		for (int j = 0; j < 4; j++)
-		{
 			printf("%d ", arr1[i][j] * arr2[i][j]);
-		}
 		printf("\n");
 	}
 	return 0;

@@ -7,9 +7,7 @@ int main(void)
 	for (int i = 0; i < 3; i++)
 	{
 		for (int j = 0; j < 5; j++)
-		{
 			printf("%2d   ", save[i][j]);
-		}
 		printf("\n");
 	}
 	return 0;

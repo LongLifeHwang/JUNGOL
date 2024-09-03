@@ -17,14 +17,10 @@ int main(void)
 		{
 			sum_3++;
 			if (n % 5 == 0)
-			{
 				sum_5++;
-			}
 		}
 		else if (n % 5 == 0)
-		{
 			sum_5++;
-		}
 	}
 	printf("Multiples of 3 : %d\n", sum_3);
 	printf("Multiples of 5 : %d", sum_5);

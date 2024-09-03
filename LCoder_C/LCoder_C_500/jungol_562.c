@@ -14,13 +14,9 @@ int main(void)
 	{
 		scanf("%d", &n[i]);
 		if (i % 2 == 0)
-		{
 			sum += n[i];
-		}
 		else
-		{
 			sum_g += n[i];
-		}
 	}
 	avg = (float)sum_g / 5;
 	printf("sum : %d\navg : %.1f", sum, avg);

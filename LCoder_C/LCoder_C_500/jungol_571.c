@@ -13,8 +13,6 @@ int main(void)
 
 	scanf("%d", &n);
 	for (int i = 0; i < n; i++)
-	{
 		line();
-	}
 	return 0;
 }
